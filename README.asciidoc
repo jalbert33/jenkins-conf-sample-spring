@@ -1,0 +1,12 @@
+# jenkins-conf-sample-spring
+
+Jenkins conf
+============
+
+Jenkins User : utilisateur/utilisateur
+
+Sonar conf
+==========
+
+Sonar User : admin/admin
+
