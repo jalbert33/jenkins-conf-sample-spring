@@ -1,0 +1,95 @@
+Started by user [8mha:////4MsTa435dcXvRGSjAPMMD+MaL6zQ26qi1bGJ4NyWJgMxAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL90pLMnMzixJLU0iIAdnpFvcYAAAA=[0mutilisateur
+Building in workspace /var/jenkins_home/workspace/spring-boot - commit build
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jalbert33/sample-spring-boot.git # timeout=10
+Fetching upstream changes from https://github.com/jalbert33/sample-spring-boot.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/jalbert33/sample-spring-boot.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4fbc7ae1cd95d6c01be91957f7d4569d8a1253a3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4fbc7ae1cd95d6c01be91957f7d4569d8a1253a3
+ > git rev-list 4fbc7ae1cd95d6c01be91957f7d4569d8a1253a3 # timeout=10
+[spring-boot - commit build] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven3.3.9/bin/mvn -f pom.xml -Dmaven.test.skip=true clean verify
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4FBjduw/yufYIZHRYq2Jqg/E3AZrFDn3TRi0RbJso0iUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.6.1:clean (default-clean) @ demo ---
+[INFO] Deleting /var/jenkins_home/workspace/spring-boot - commit build/target
+[INFO] 
+[8mha:////4FBjduw/yufYIZHRYq2Jqg/E3AZrFDn3TRi0RbJso0iUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ demo ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[8mha:////4FBjduw/yufYIZHRYq2Jqg/E3AZrFDn3TRi0RbJso0iUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ demo ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /var/jenkins_home/workspace/spring-boot - commit build/target/classes
+[INFO] 
+[8mha:////4FBjduw/yufYIZHRYq2Jqg/E3AZrFDn3TRi0RbJso0iUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ demo ---
+[INFO] Not copying test resources
+[INFO] 
+[8mha:////4FBjduw/yufYIZHRYq2Jqg/E3AZrFDn3TRi0RbJso0iUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ demo ---
+[INFO] Not compiling test sources
+[INFO] 
+[8mha:////4FBjduw/yufYIZHRYq2Jqg/E3AZrFDn3TRi0RbJso0iUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ demo ---
+[INFO] Tests are skipped.
+[INFO] 
+[8mha:////4FBjduw/yufYIZHRYq2Jqg/E3AZrFDn3TRi0RbJso0iUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ demo ---
+[INFO] Building jar: /var/jenkins_home/workspace/spring-boot - commit build/target/demo-0.0.1-SNAPSHOT.jar
+[INFO] 
+[8mha:////4FBjduw/yufYIZHRYq2Jqg/E3AZrFDn3TRi0RbJso0iUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:1.5.3.RELEASE:repackage (default) @ demo ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.560 s
+[INFO] Finished at: 2017-04-26T08:43:27+00:00
+[INFO] Final Memory: 27M/204M
+[INFO] ------------------------------------------------------------------------
+[spring-boot - commit build] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven3.3.9/bin/mvn javadoc:javadoc
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.4:javadoc (default-cli) > generate-sources @ demo >>>
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.4:javadoc (default-cli) < generate-sources @ demo <<<
+[INFO] 
+[8mha:////4FBjduw/yufYIZHRYq2Jqg/E3AZrFDn3TRi0RbJso0iUAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-javadoc-plugin:2.10.4:javadoc (default-cli) @ demo ---
+[INFO] 
+Loading source files for package com.example...
+Constructing Javadoc information...
+Standard Doclet version 1.8.0_121
+Building tree for all the packages and classes...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/com/example/DemoApplication.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/com/example/package-frame.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/com/example/package-summary.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/com/example/package-tree.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/constant-values.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/com/example/class-use/DemoApplication.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/com/example/package-use.html...
+Building index for all the packages and classes...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/overview-tree.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/index-all.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/deprecated-list.html...
+Building index for all classes...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/allclasses-frame.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/allclasses-noframe.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/index.html...
+Generating /var/jenkins_home/workspace/spring-boot - commit build/target/site/apidocs/help-doc.html...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.705 s
+[INFO] Finished at: 2017-04-26T08:43:33+00:00
+[INFO] Final Memory: 24M/212M
+[INFO] ------------------------------------------------------------------------
+Publishing Javadoc
+Finished: SUCCESS

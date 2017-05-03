@@ -1,0 +1,4 @@
+2017-04-24_18:09:15.19516 time="2017-04-24T18:09:15Z" level=info msg="Semantic Version Changed: 0.0.0 -> 9.6.1" source="postgres_exporter.go:945" 
+2017-04-24_18:09:15.21542 time="2017-04-24T18:09:15Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1042" 
+2017-04-24_18:09:28.52232 time="2017-04-24T18:09:28Z" level=info msg="Semantic Version Changed: 0.0.0 -> 9.6.1" source="postgres_exporter.go:945" 
+2017-04-24_18:09:28.54221 time="2017-04-24T18:09:28Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1042" 

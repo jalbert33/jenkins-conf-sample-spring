@@ -1,0 +1,8 @@
+Started on Apr 26, 2017 9:22:02 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 773baae3e7f80d4848c71717fa93ff91e3143100 (refs/remotes/origin/master)
+ > git ls-remote -h https://github.com/jalbert33/sample-spring-boot.git # timeout=10
+Found 1 remote heads on https://github.com/jalbert33/sample-spring-boot.git
+[poll] Latest remote head revision on refs/heads/master is: b3d303a4d4f954d5289b83b209348ad8ed76ecad
+Done. Took 3.2 sec
+Changes found

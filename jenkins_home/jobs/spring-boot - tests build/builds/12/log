@@ -1,0 +1,36 @@
+Started by an SCM change
+Building in workspace /var/jenkins_home/workspace/spring-boot - tests build
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jalbert33/sample-spring-boot.git # timeout=10
+Fetching upstream changes from https://github.com/jalbert33/sample-spring-boot.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/jalbert33/sample-spring-boot.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b3d303a4d4f954d5289b83b209348ad8ed76ecad (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b3d303a4d4f954d5289b83b209348ad8ed76ecad
+ > git rev-list 773baae3e7f80d4848c71717fa93ff91e3143100 # timeout=10
+[spring-boot - tests build] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/maven3.3.9/bin/mvn -f pom.xml clean verify
+[INFO] Scanning for projects...
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] 'parent.version' is missing. @ line 14, column 10
+ @ 
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] The build could not read 1 project -> [Help 1]
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   The project com.example:demo:0.0.1-SNAPSHOT (/var/jenkins_home/workspace/spring-boot - tests build/pom.xml) has 1 error
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]     'parent.version' is missing. @ line 14, column 10
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4NWbkjpQnAX8atutEjGFbYvVv3IFQXqbczi5BSDmE/VfAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Skipping Cobertura coverage report as build was not UNSTABLE or better ...
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ failed: Test reports were found but none of them are new. Did tests run? 
+For example, /var/jenkins_home/workspace/spring-boot - tests build/target/surefire-reports/TEST-com.example.DemoApplicationTests.xml is 11 hr old
+
+[8mha:////4BYMJcjyo5JmOziCywBORElmMMYRpIiXRkNxVamqzfiBAAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE

@@ -1,0 +1,18 @@
+=============== Apr 24, 2017 (UTC) ===============
+18:09:12.280421 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:09:12.280552 db@open opening
+18:09:12.283421 version@stat F·[] S·0B[] Sc·[]
+18:09:12.285863 db@janitor F·2 G·0
+18:09:12.285879 db@open done T·5.319992ms
+18:09:28.108987 db@close closing
+18:09:28.109015 db@close done T·26.918µs
+=============== Apr 24, 2017 (UTC) ===============
+18:09:28.239601 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:09:28.239725 version@stat F·[] S·0B[] Sc·[]
+18:09:28.239731 db@open opening
+18:09:28.239759 journal@recovery F·1
+18:09:28.240576 journal@recovery recovering @1
+18:09:28.243264 memdb@flush created L0@2 N·59 S·27KiB "\x04db,v10":"\x1cgo..ion,v13"
+18:09:28.243922 version@stat F·[1] S·27KiB[27KiB] Sc·[0.25]
+18:09:28.244169 db@janitor F·3 G·0
+18:09:28.244189 db@open done T·4.45434ms

@@ -1,0 +1,32 @@
+Started by user [8mha:////4MsTa435dcXvRGSjAPMMD+MaL6zQ26qi1bGJ4NyWJgMxAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/dLi1CL90pLMnMzixJLU0iIAdnpFvcYAAAA=[0mutilisateur
+Building in workspace /var/jenkins_home/workspace/spring-boot - commit build
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jalbert33/sample-spring-boot.git # timeout=10
+Fetching upstream changes from https://github.com/jalbert33/sample-spring-boot.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/jalbert33/sample-spring-boot.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fdbe5da6097c6c226a4a560bf174207963703d88 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fdbe5da6097c6c226a4a560bf174207963703d88
+ > git rev-list 375118464ffb89f571e07027617fe9a39a03564f # timeout=10
+[spring-boot - commit build] $ /var/jenkins_home/tools/hudson.tasks.Maven_MavenInstallation/Mvn3.5.0/bin/mvn -f pom.xml clean verify
+[[1;34mINFO[m] Scanning for projects...
+[[1;31mERROR[m] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.springframework.boot:spring-boot-sample-traditional:[unknown-version]: Could not find artifact org.springframework.boot:spring-boot-starter-parent:pom:2.0.0.BUILD-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 4, column 10
+ @ 
+[[1;31mERROR[m] The build could not read 1 project -> [1m[Help 1][m
+[[1;31mERROR[m]   
+[[1;31mERROR[m]   The project org.springframework.boot:spring-boot-sample-traditional:[unknown-version] (/var/jenkins_home/workspace/spring-boot - commit build/pom.xml) has 1 error
+[[1;31mERROR[m]     Non-resolvable parent POM for org.springframework.boot:spring-boot-sample-traditional:[unknown-version]: Could not find artifact org.springframework.boot:spring-boot-starter-parent:pom:2.0.0.BUILD-SNAPSHOT and 'parent.relativePath' points at wrong local POM @ line 4, column 10 -> [1m[Help 2][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[[1;31mERROR[m] [1m[Help 2][m http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+Build step 'Invoke top-level Maven targets' marked build as failure
+Finished: FAILURE

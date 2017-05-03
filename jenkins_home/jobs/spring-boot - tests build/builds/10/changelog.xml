@@ -1,0 +1,11 @@
+commit 773baae3e7f80d4848c71717fa93ff91e3143100
+tree 13b06cdb6174b304f709010b9542374de3d6e13e
+parent 6b4b3ca1182285934d4801189c951d6047b51436
+author jalbert33 <jalbert33@users.noreply.github.com> 2017-04-26 11:31:32 +0200
+committer GitHub <noreply@github.com> 2017-04-26 11:31:32 +0200
+
+    Up cobertura plugin to build
+
+
+
+:100644 100644 f826bbb31e7e3b5aa41283fe61e47dc5ec2adfa6 9989ee53db76b572d228f2089314419b5fcfcdde M	pom.xml

@@ -1,0 +1,17 @@
+=============== Apr 24, 2017 (UTC) ===============
+18:09:12.244707 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:09:12.244821 db@open opening
+18:09:12.245268 version@stat F·[] S·0B[] Sc·[]
+18:09:12.273312 db@janitor F·2 G·0
+18:09:12.273339 db@open done T·28.510269ms
+18:09:28.108754 db@close closing
+18:09:28.108876 db@close done T·119.483µs
+=============== Apr 24, 2017 (UTC) ===============
+18:09:28.212837 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:09:28.212914 version@stat F·[] S·0B[] Sc·[]
+18:09:28.212919 db@open opening
+18:09:28.213078 journal@recovery F·1
+18:09:28.213134 journal@recovery recovering @1
+18:09:28.213517 version@stat F·[] S·0B[] Sc·[]
+18:09:28.214070 db@janitor F·2 G·0
+18:09:28.214115 db@open done T·1.189893ms

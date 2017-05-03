@@ -1,0 +1,44 @@
+** [Raven] Raven 2.0.2 configured not to capture errors.
+** [Raven] Raven 2.0.2 configured not to capture errors.
+** [Raven] Raven 2.0.2 configured not to capture errors.
+** [Raven] Raven 2.0.2 configured not to capture errors.
+** [Raven] Raven 2.0.2 configured not to capture errors.
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:10:06 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 170ms (Views: 147.5ms | ActiveRecord: 7.3ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:11:07 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 34ms (Views: 24.0ms | ActiveRecord: 2.1ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:12:07 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 46ms (Views: 36.7ms | ActiveRecord: 2.0ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:13:07 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 50ms (Views: 37.8ms | ActiveRecord: 1.4ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:14:07 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 128ms (Views: 111.2ms | ActiveRecord: 5.3ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:15:07 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 38ms (Views: 23.7ms | ActiveRecord: 2.4ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:16:08 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 61ms (Views: 48.5ms | ActiveRecord: 1.8ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:17:08 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 131ms (Views: 111.7ms | ActiveRecord: 6.7ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:18:08 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 47ms (Views: 30.4ms | ActiveRecord: 3.6ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:19:08 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 105ms (Views: 87.6ms | ActiveRecord: 3.8ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:20:09 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 57ms (Views: 43.0ms | ActiveRecord: 2.4ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:21:09 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 100ms (Views: 67.8ms | ActiveRecord: 5.4ms)
+Started GET "/help" for 127.0.0.1 at 2017-04-24 18:22:09 +0000
+Processing by HelpController#index as */*
+Completed 200 OK in 94ms (Views: 66.9ms | ActiveRecord: 3.1ms)
